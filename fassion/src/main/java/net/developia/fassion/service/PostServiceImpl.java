@@ -18,7 +18,7 @@ public class PostServiceImpl implements PostService {
 	private PostMapper mapper;
 	@Override
 	public List<PostVO> getAllPost() {
-		log.info("get AllPost ");
+//		log.info("get AllPost ");
 		return mapper.getAllPost();
 	}
 

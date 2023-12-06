@@ -80,9 +80,20 @@ blockquote,q {
 a:hover,a:active,a:focus {
 	outline:0;
 }
-a img {
+/*a img {*/
+/*	border: 2px solid;*/
+/*	border-radius: 7px;*/
+/*}*/
+
+.post_image {
 	border: 2px solid;
 	border-radius: 7px;
+}
+
+.post_userProfile{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
 }
 
 /*--------------------------------------------------------------2.0 Responsive Grid--------------------------------------------------------------*/

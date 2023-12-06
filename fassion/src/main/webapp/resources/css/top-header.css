@@ -45,6 +45,14 @@ li, ol, ul {
     margin-right: auto;
     max-width: 1280px;
 }
+.header_main{
+    margin-top: 13px;
+    border-bottom: 1px solid #f0f0f0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #7f8d8c;
+/*    헤더 페이지 아래에 줄 생기는 것*/
+}
 
 .md .header .main_inner[data-v-77726920], .mo .header .main_inner[data-v-77726920], .sm .header .main_inner[data-v-77726920] {
     height: 44px;
@@ -58,11 +66,14 @@ li, ol, ul {
     justify-content: space-between;
     min-width: 320px;
     padding: 20px 40px;
-    margin-top: 13px;
-    border-bottom: 1px solid #f0f0f0;
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    border-bottom-color: #7f8d8c;
+
+
+    /*align-items: center;*/
+    /*display: flex;*/
+    /*height: 64px;*/
+    /*justify-content: space-between;*/
+    /*min-width: 320px;*/
+    /*padding: 20px 40px;*/
     /*border-bottom-color: rgb(240, 240, 240);*/
 }
 
@@ -167,6 +178,16 @@ li, ol, ul {
     margin-left: 12px;
     margin-right: 12px;
     width: 1px;
+}
+
+.page_title[data-v-ace09ba4] {
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -.12px;
+    /*padding-bottom: 0px;*/
+    padding-top: 1px;
+    text-align: center;
+    margin-top:10px;
 }
 /*.header-fix{*/
 /*    position: fixed;*/
