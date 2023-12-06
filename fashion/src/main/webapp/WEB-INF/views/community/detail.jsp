@@ -5,12 +5,20 @@
   Time: 오후 3:19
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Title</title>
-</head>
-<body>
+<%@ page pageEncoding="utf-8"%>
+<%@include file="../includes/header.jsp"%>
 
-</body>
-</html>
+    <div class="container">
+
+        <img src="${post.picture}">
+        <p>아이디: ${post.userId}</p>
+        <p>조회수: ${post.readCount}</p>
+        <p>작성일: ${post.createdAt}</p>
+        <p>수정일: ${post.updatedAt}</p>
+        <p>내용: ${post.postContent}</p>
+
+    </div>
+
+
+
+<%@include file="../includes/footer.jsp"%>
